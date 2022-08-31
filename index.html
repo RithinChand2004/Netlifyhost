@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document3</title>
+</head>
+<body>
+    <form action = "/action.php">
+    <a href="/form.html"> <img src="https://img.paperform.co/fetch/w_1400,f_auto/https://s3-ap-southeast-2.amazonaws.com/paperform/u-1/1/2018-11-02/x913um6/invitecover.jpg" alt="redirecting to same page" width="100%" height="auto"></a>
+    <h1>
+        Register for the Biggest Hackathon in india
+    </h1>
+    <hr>
+    <h2>
+        Fill in your personal details
+    </h2>
+    First Name <input type="text" placeholder="Fill your Name">
+    <br>
+    <br>
+    Last Name <input type="text" placeholder="Fill your Name">
+    <br>
+    <br>
+    Date of birth <input type="date" >
+    <br>
+    <br>
+    Qualification <select name="Qualification" id="Qualification" >
+        <option value="Select">Select</option>
+        <option value="High School">High School</option>
+        <option value="Undergraduate">Undergraduate</option>
+        <option value="Fresher">Fresher</option>
+        <option value="Senior Developer">Senior Developer</option>
+    </select>
+    <br>
+    <br>
+    Gender <select name="Gender" id="Gender" >
+        <option value="Select">Select</option>
+        <option value="Male">Male</option>
+        <option value="Female">Female</option>
+        <option value="Other">Other</option>
+        <option value="Dont mention">Dont Metion</option>
+    </select>
+    <br>
+    <br>
+    T Shirt size <select name="Size" id="Size" >
+        <option value="Select">Select</option>
+        <option value="Small">Small</option>
+        <option value="Medium">Medium</option>
+        <option value="Large">Large</option>
+        <option value="Extra Large">Extra Large</option>
+    </select>
+    <br>
+    <br>
+    Bio 
+    <br>
+    <textarea name="Bio" id="bio" placeholder="Tell us more about yourself" rows=5 cols=50 ></textarea>
+    <hr>
+    <h2>
+        Fil in your Contact Details
+    </h2>
+    Phone Number <input type="Number" placeholder="Mobile Number">
+    <br>
+    <br>
+    Alternate Mobile Number <input type="Number" placeholder="Alternate Number">
+    <br>
+    <br>
+    Email <input type="email" placeholder="Email">
+    <hr>
+    <h2>
+        Fill in your Address
+    </h2>
+    House NO/Plot NO <input type="text" placeholder="H No:/plt No:">
+    Street <input type="text" placeholder="Street">
+    <br>
+    <br>
+    City <input type="text" placeholder="City">
+    Pin Code <input type="number" placeholder="Pincode">
+    <br>
+    <br>
+    State <input type="text" placeholder="State">
+    Country <input type="text" placeholder="Country">
+    <hr>
+    <h2>
+        Fill in Education Details
+    </h2>
+    <label for="101">
+        <input type="radio" value="Studying" name="education" id="101">Studying
+    </label>
+    <label for="102">
+        <input type="radio" value="Completed Studying" name="education" id="102">Completed Studying
+    </label>
+    <h4>If Studying</h4>
+
+    Currently Studying at <input type="text" placeholder="Institution name">
+    <br>
+    <br>
+    Date of starting degree<input type="date" >
+    <br>
+    <br>
+    Expected Mont of Graduation<input type="month">
+    <br>
+    <br>
+    Expected Year of Graduation<input type="year">
+    <br>
+    <br>
+    <h4>If completed Studying</h4>
+
+    Experience <input type="number" placeholder="in years">
+    <br>
+    <br>
+    Company name you working with <input type="text" placeholder="Company name">
+    <br>
+    <br>
+    Type of Company Working in
+    <label for="103">
+        <input type="radio" value="Start-up" name="education" id="101">Start-up
+    </label>
+    <label for="104">
+        <input type="radio" value="MNC" name="education" id="102">MNC
+    </label>
+    <br>
+    <br>
+    Designation <select name="Designation" id="Designation" >
+        <option value="Select">Select</option>
+        <option value="Intern">Intern</option>
+        <option value="Junior Developer">Junior Developer</option>
+        <option value="Senior Developer">Senior Developer</option>
+        <option value="Product manager">Product manager</option>
+        <option value="HR team">HR team</option>
+        <option value="Director">Director</option>
+        <option value="CEO">CEO</option>
+    </select>
+    <hr>
+    Upload your resume
+    <br>
+    <br>
+    Choose a File from your device
+    <input type="file" id="myfile" name="myfile" onclick="alert('Website is trying to browse files from your device')">
+    <br>
+    <br>
+    Click Submit to submit all fields
+    <br>
+    Click Reset to reset all fields
+    <br>
+    <br>
+    <input type="submit" onclick="alert('Are you sure to submit')" value="Submit" >   
+    <input type="reset" onclick="alert('Are you sure to reset the fields')">
+
+    
+</form>
+
+</body>
+</html>
